@@ -1,10 +1,20 @@
-# setup.py
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
+with open('requirements.txt') as f:
+	install_requires = f.read().strip().split('\n')
+
+# get version from __version__ variable in whitetheme_v13/__init__.py
+from forest_theme import __version__ as version
+
 setup(
-    name='pos_theme',  # Ensure this matches the app folder name
-    version='0.0.1',
-    description='Your theme app for ERPNext',
-    packages=find_packages(),
-    include_package_data=True,
+	name='pos_theme',
+	version=version,
+	description='pos theme for erpnext',
+	author='Visharad',
+	author_email='vish@gmail.com',
+	packages=find_packages(),
+	zip_safe=False,
+	include_package_data=True,
+	install_requires=install_requires
 )
