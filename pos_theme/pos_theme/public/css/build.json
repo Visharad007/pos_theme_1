@@ -1,0 +1,8 @@
+{
+    "css/pos_theme.css": [
+      "public/css/pos_theme.css"
+    ],
+    "js/pos_theme.js": [
+      "public/js/pos_theme.js"
+    ]
+  }

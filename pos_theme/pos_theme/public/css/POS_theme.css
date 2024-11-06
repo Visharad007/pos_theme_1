@@ -1,0 +1,174 @@
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+*::-webkit-scrollbar-track {
+    background: var(--scroll-bg);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-color);
+    border-radius: 20px;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-color) var(--scroll-bg);
+
+}
+.awesomplete .input-with-feedback {
+    border: 1px solid var(--border-color);
+}
+.form-control {
+    border: 1px solid var(--border-color);
+}
+.search-bar .awesomplete input {
+    background-color: rgb(255, 255, 255);
+}
+.modal-backdrop{
+    background-color: #ebbcbc !important;
+}
+.widget .widget-head .widget-title {
+    font-size: var(--text-base);
+}
+.comment-box .comment-input-header, .form-dashboard-section .section-head, .form-section .section-head, .head-title {
+    font-size: var(--text-base);
+    font-weight: 600;
+}
+.comment-box .comment-input-container .ql-editor {
+    border: 1px solid var(--border-color);
+}
+.duration-picker .duration-input {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+}
+.control-label {
+    font-weight: 500;
+}
+[data-theme="dark"] {
+    --bg-color: var(--gray-900);
+    --disabled-control-bg: var(--gray-900);
+    --border-color: #1c2126;
+    --margin-lg : 15px;
+    --text-bold: 600;
+    --scroll-bg: #161a1f;
+    --scroll-color: #1c2126;
+}
+
+[data-theme="light"] {
+    --bg-color: rgb(9, 16, 87);
+    --text-bold: 600;
+    --control-bg : #ffffff;
+    --control-bg-on-gray: white;
+    --disabled-control-bg: #000000;
+    --heading-color: white;
+    --border-color:#e3e8f1;
+    --avatar-frame-bg: #006aff;
+    --margin-lg: 15px;
+    --sidebar-select-color: #4a90d6;
+    --awesomplete-hover-bg: #d4dcea;
+    --awesomplete-color:white;
+    --scroll-bg: #eef1f5;
+    --scroll-color: #d9dfe6;
+    --awesomeplete-bg: white;
+
+}
+
+.layout-main-section {
+    background-color: rgb(63, 122, 200) !important;
+    border-radius: 6px;
+}
+
+.widget {
+    background-color: rgb(219, 211, 211);
+    padding: 5px;
+    border-radius: 6px;
+    
+}
+
+.widget-spacer {
+    padding: 0;
+}
+
+.standard-filter-section-flex {
+    background-color: rgb(111, 128, 156);
+}
+
+.navbar {
+    background-color: rgb(236, 131, 5);
+}
+
+.ellipsis_tittle-text{
+    color: white;
+}
+
+.app-logo {
+    border-radius: 6px;
+    background-color:rgb(245, 171, 171) ;
+}
+
+.es-icon {
+    color: white;
+}
+
+#login {
+    background-color: #a80e0e;
+}
+
+.desk-sidebar-item {
+    color: white;
+}
+
+.sidebar-item-label {
+    color: white;
+}
+
+.page-form {
+    background-color:rgb(63, 122, 200) ;
+}
+
+.btn-reset {
+    color: white;
+}
+
+.ellipsis_tittle-id{
+    color: white;
+}
+
+.list-row-col_ellipsis_hidden-xs {
+    color: white;
+}
+
+#helmet.ellipsis {
+    color: white;
+}
+
+.list-row-col a {
+    color: white;
+}
+
+.sidebar-section a{
+    color: white;
+}
+
+.layout-side-section .sidebar-label {
+    color: white;
+}
+
+.checkbox .label-area {
+    color: white;
+}
+
+.ellipsis:hover {
+    color: black;
+}
+
+.search-bar .awesomplete ul {
+    color: white;
+}
+
+.listbox {
+    color: white;
+}
+
+.listbox.awesomeplete_list_1 {
+    color: white;
+}
